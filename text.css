@@ -138,6 +138,7 @@ button:hover::after {
   }
   .button-nav {
     padding: 5px 22px;
+    display: none;
   }
   .button-nav-center {
     padding: 5px 22px;
@@ -154,14 +155,16 @@ button:hover::after {
   table {
     display: none;
   }
-  .button-nav {
-    padding: 5px 22px;
-    font-size: 11px;
-  }
+
   .button-nav-center {
     padding: 5px 22px;
     display: none;
   }
+
+.button-nav-mobile {
+  display: none;
+}
+
   body {
     background-image: url("blob-scene-haikei.svg");
     background-repeat: no-repeat;
@@ -176,6 +179,20 @@ button:hover::after {
   text-align: center;
   transition: 300ms all ease-in-out;
   font-size: 20px;
+  border-radius: 8px;
+  border-color: antiquewhite;
+  border-style: groove;
+  margin: 4vh 4vw;
+  margin-top: 2vh 2vw;
+}
+
+.button-nav-mobile {
+  background-color: darkblue;
+  color: antiquewhite;
+  padding: 10px 22px;
+  text-align: center;
+  transition: 300ms all ease-in-out;
+  font-size: 15px;
   border-radius: 8px;
   border-color: antiquewhite;
   border-style: groove;
@@ -244,6 +261,9 @@ button:hover::after {
   }
   .button-nav {
     padding: 5px 22px;
+    display: none;
+  }
+  .button-nav-mobile {
     display: none;
   }
   .button-nav-center {
