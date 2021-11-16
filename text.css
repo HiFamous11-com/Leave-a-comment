@@ -156,6 +156,7 @@ button:hover::after {
   }
   .button-nav {
     padding: 5px 22px;
+    font-size: 11px;
   }
   .button-nav-center {
     padding: 5px 22px;
