@@ -1,0 +1,7 @@
+.fb-comments {
+    border-radius: 5px;
+    border-color: aqua;
+    border-left: blueviolet;
+    border-style: dotted;
+    background-image: url("wavy.svg");
+}
