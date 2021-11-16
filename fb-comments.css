@@ -4,4 +4,7 @@
     border-left: blueviolet;
     border-style: dotted;
     background-image: url("wavy.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2vh 2vw;
 }
