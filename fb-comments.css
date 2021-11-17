@@ -18,5 +18,12 @@
 @media only screen and (max-width: 920px) and (orientation: landscape) {
     .fb-comments {
         margin: 0vh 0vw;
+        border-radius: 5px;
+        border-color: aqua;
+        border-left: blueviolet;
+        border-style: dotted;
+        background-image: url("wavy.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
