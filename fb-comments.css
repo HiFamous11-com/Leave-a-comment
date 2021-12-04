@@ -44,6 +44,7 @@ body {
 
 @media only screen and (min-width:920px) {
    .face_b-comments {
-       display: none;
+       border: none;
+       background: none;
    } 
 }
