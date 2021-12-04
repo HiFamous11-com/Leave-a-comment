@@ -15,8 +15,22 @@
     }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.face_b-comments {
+    border-style: dotted;
+    background-image: url("wavy.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media only screen and (max-width: 920px) and (orientation: landscape) {
-    .fb-comments {
+    .face_b-comments {
         margin: 0vh 0vw;
         border-radius: 5px;
         border-color: aqua;
@@ -26,4 +40,10 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+}
+
+@media only screen and (min-width:920px) {
+   .face_b-comments {
+       display: none;
+   } 
 }
